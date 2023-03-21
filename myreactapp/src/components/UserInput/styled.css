@@ -1,0 +1,54 @@
+.emojis {
+    font-size: 2rem;
+    opacity: .8;    
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.emoji {
+    transition: all 140ms ease-in-out;
+    opacity: .8;
+    margin: 0;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.emoji:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.selection-title {
+    text-align: center;
+}
+
+.selected-choice h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2rem;
+}
+
+.selected-choice h1 {
+    margin: 0;
+}
+
+.selected-choice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.winner {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.winner h1{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
